@@ -73,9 +73,9 @@ header {
 }
 
 .sign-up {
-  background-color: transparent;
+  background-color: rgb(192, 192, 192);
   padding: 6px 12px;
-  border: 3px solid #0db854;
+  border: 3px solid #a3a3a3;
   border-radius: 5px 10px;
   margin-top: -12px;
   margin-left: 10px;
@@ -84,16 +84,12 @@ header {
   transition: background-color .3s linear;
   outline: none;
   text-decoration: none;
-}
-
-.sign-up:hover {
-  background-color: #0db854;
-  cursor: pointer;
+  cursor: default;
+  font-family: "Avenir";
 }
 
 .main {
   width: 100%;
-  /* background-color: #636363; */
 }
 
 /* FEATURE SECTION */
@@ -117,16 +113,11 @@ header {
   padding: 8px 0px;
   margin: auto;
   display: block;
-  background-color: #0db854;
+  background-color: #bbbbbb;
   color: white;
   font-size: 25px;
-  width: 120px;
+  width: 200px;
   text-align: center;
-}
-
-.feature .sign-up:hover {
-  background-color: white;
-  color: #0db854;
 }
 
 .overlay {
